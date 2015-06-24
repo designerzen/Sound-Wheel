@@ -1,0 +1,34 @@
+extends layout
+
+block content
+
+	//- a#fork(href="http://github.com/designerzen", title="Fork off")
+		//- img(src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png", alt="Fork me on GitHub")
+		
+	header
+		h1 Soundwheel
+		h2 Harmonics Generator
+		
+	#application
+		img(class="loader", src="assets/img/loader.svg", alt="Loading icon" )
+		noscript Need JavaScript Son.
+		
+		
+		article.help
+			h3 Help!
+			
+			a.showHelp(href='#') help	
+				include partials/keyboard
+			
+			section.instructions
+				h4 Instructions
+				p
+					ul
+						li Click on the circle to add a new note.
+						li Drag a note around to change it's pitch
+						li To remove a note, drag it to the edge of the screen
+						li Use the hotkeys above to play with the arrangements
+						li Hit the record button to start saving a wave file of your performance
+						li To stop recording, click the record button once more.
+					
+				small Hide Keyboard

@@ -1,0 +1,16 @@
+node_modules
+public/javascripts
+public/stylesheets
+public/img
+dist
+.DS_Store
+.sass-cache
+dev
+build
+dist
+deploy
+release
+.git
+.tmp
+Thumbs.db
+Desktop.ini

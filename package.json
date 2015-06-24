@@ -1,0 +1,43 @@
+{
+  "name": "soundwheel",
+  "version": "0.1.1",
+  "description": "A Bassline generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designerzen/Sound-Wheel.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-data": "^1.2.0",
+    "gulp-filter": "^2.0.2",
+    "gulp-ftp": "^1.0.1",
+    "gulp-html": "^0.4.2",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-jshint": "^1.9.2",
+    "gulp-jshint-file-reporter": "0.0.1",
+    "gulp-less": "^3.0.3",
+    "gulp-pleeease": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.3",
+    "jshint": "^2.6.0",
+    "jshint-log-reporter": "^1.0.11",
+    "path": "^0.11.14",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.1",
+    "vinyl-source-stream": "~1.0.0"
+  },
+  "dependencies": {
+    "less-plugin-autoprefix": "^1.3.0",
+    "less-plugin-clean-css": "^1.5.0",
+    "imagemin-gifsicle": "^4.1.0",
+    "imagemin-jpegoptim": "^4.0.0",
+    "imagemin-pngquant": "^4.0.0"
+  }
+}
