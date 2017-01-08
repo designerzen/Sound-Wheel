@@ -9,12 +9,14 @@
   "devDependencies": {
     "browser-sync": "^2.7.12",
     "del": "^1.2.0",
-    "gulp": "^3.9.0",
+    "gh-pages": "^0.12.0",
+    "gulp": "^3.9.1",
     "gulp-changed": "^1.2.1",
     "gulp-concat": "^2.4.3",
     "gulp-data": "^1.2.0",
     "gulp-filter": "^2.0.2",
     "gulp-ftp": "^1.0.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-html": "^0.4.2",
     "gulp-if": "^1.2.5",
     "gulp-imagemin": "^2.1.0",
@@ -29,15 +31,22 @@
     "jshint": "^2.6.0",
     "jshint-log-reporter": "^1.0.11",
     "path": "^0.11.14",
-    "require-dir": "^0.3.0",
+    "require-dir": "^0.3.1",
     "run-sequence": "^1.1.1",
     "vinyl-source-stream": "~1.0.0"
   },
+
   "dependencies": {
     "less-plugin-autoprefix": "^1.3.0",
     "less-plugin-clean-css": "^1.5.0",
     "imagemin-gifsicle": "^4.1.0",
     "imagemin-jpegoptim": "^4.0.0",
     "imagemin-pngquant": "^4.0.0"
-  }
+  },
+
+  "licenses": [
+{
+    "type": "GPLv2",
+    "url": "http://www.example.com/licenses/gpl.html",
+  }]
 }
